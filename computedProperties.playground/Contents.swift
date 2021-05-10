@@ -29,3 +29,20 @@ myBroAge=30
 print(myBroAge)
 
 
+
+//MARK: - Example Program to Understand
+
+var height:Float=10.0
+var width :Float=2.0
+
+var numberOfPaintBottles:Int{
+    get{
+        return Int(ceilf((height*width) / 1.5))
+    }
+    set{
+        print("You can manage area of \(Double(newValue) * 1.5)")
+    }
+}
+
+print(numberOfPaintBottles)
+numberOfPaintBottles=4
